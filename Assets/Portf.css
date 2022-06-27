@@ -1,0 +1,240 @@
+/*My objective was to gice my portfolio a sort of minimalist look, 
+I can certainly improve on some things, but I guess I'll get better the more I practice*/
+
+
+* {
+    box-sizing: content-box;
+}
+
+
+
+
+
+body {
+
+  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    background-image: url("images/background.jpg.jpg");
+
+}
+    
+
+
+header { 
+
+    padding: 30px;
+    text-align: center;
+     font-size: larger;
+     color: azure;
+   
+    }
+
+
+    nav ul {
+    display: flex;
+    padding: 15px 15px;
+    font-size: 20px;
+    background-color:rgb(14, 25, 36) ;
+    
+    
+}
+
+
+
+nav ul li {
+    
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+    
+    
+}
+
+a {
+  text-decoration: overline;
+    color: cyan;
+}
+
+a:hover { 
+text-decoration-color:azure;
+
+
+}
+
+a:active {
+    color: azure;
+}
+
+
+main {
+   display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+/* Will update picture with a more professional looking one when available
+also will update info when I come up with something more apropriate*/
+.Personal-Info-Section {
+    
+    display: flex;
+    
+   flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    margin:  30px;
+    padding: 50px ;
+    height: 400px;
+    color: azure;
+    background-color:rgba(14, 25, 36, 0.774) ;
+    
+    
+}
+
+ h3 {
+    
+    padding: 30px;
+    margin: 30px;
+    font-size: 30px;
+    color: cyan;
+  
+}
+
+
+.Personal-Info-Section ul li {
+    
+    list-style-type: square;
+    line-height: 30px;
+}
+
+
+
+.Personal-Info-Section img {
+    float: left;
+    margin-right: 25px;
+    padding: 5px;
+    height: 250px;
+     border: 1px solid black;
+    background-color:rgb(14, 25, 36) ;
+    
+   
+}
+
+
+.Applications-Section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:honeydew ;
+}
+
+#h3App {
+    
+    
+    padding: 50px;
+    border: 50px ;
+    margin: 50px;
+    font-size: 30px;
+    color: cyan;
+    
+}
+
+/*will be updated when I have more to show
+Also will add more sections and such*/
+.work {
+   
+    padding: 2px;
+    background-color:rgba(14, 25, 36, 0.774)  ;
+   
+}
+
+
+.work header {
+    padding: 20px;
+    color: cyan;
+    font-size: 20px;
+
+   
+}
+
+.work p {
+  
+   text-align: center; 
+   color: azure;
+   font-size: 15px;
+
+}
+
+
+.work img {
+
+    padding: 20px;
+    height: 250px;  
+    min-width: 400px;
+}
+ 
+button {
+    
+    background-color:rgba(14, 25, 36, 0.774) ;
+   
+}
+
+button:hover {
+   
+    box-shadow: 0 0 10px azure;
+    background-color: rgba(25, 25, 112, 0.336);
+
+}
+    
+button:active {
+
+    box-shadow: 0 0 10px cyan inset;
+    
+
+}
+
+
+aside {
+  
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin: 20px;
+    padding: 50px ;
+    height: 300px;
+    color: azure;
+    background-color:rgba(14, 25, 36, 0.774) ;
+    
+}
+
+
+
+aside li {
+    
+    list-style-type: lower-greek;
+
+    line-height: 30px;
+}
+
+/*Will update contact info with linkedIn and my proper socials when available*/
+footer {
+
+text-align: left;
+margin: 20px;
+padding: 50px ;
+height: auto;
+color: azure;
+
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+
+/*I'm sure I am missing many features or things in general I could have added,
+ but tbh I need more practice and/or experience*/

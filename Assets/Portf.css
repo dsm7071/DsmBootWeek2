@@ -80,11 +80,10 @@ also will update info when I come up with something more apropriate*/
 .Personal-Info-Section {
     
     display: flex;
-    
-   flex-direction: column;
-   justify-content: center;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin:  30px;
+    margin:  40px;
     padding: 50px ;
     height: 400px;
     color: azure;
@@ -112,11 +111,11 @@ also will update info when I come up with something more apropriate*/
 
 
 .Personal-Info-Section img {
-    float: left;
-    margin-right: 25px;
+    
     padding: 5px;
-    height: 250px;
-     border: 1px solid black;
+    height: 240px;
+    width: 210px;
+    border: 1px solid black;
     background-color:rgb(14, 25, 36) ;
     
    

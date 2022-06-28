@@ -18,7 +18,7 @@ body {
     background-image: url("images/background.jpg.png");
 
 }
-    
+    /*I do not own the backgounrd image, unsure how to state that fact*/
 
 
 header { 
@@ -205,7 +205,7 @@ aside {
     font-size: 20px;
     margin: 20px;
     padding: 50px ;
-    height: 300px;
+    height: 320px;
     color: azure;
     background-color:rgba(14, 25, 36, 0.774) ;
     
@@ -236,5 +236,5 @@ footer a {
 }
 
 
-/*I'm sure I am missing many features or things in general I could have added,
+/*I'm sure I am missing many features or things in general I could have added or done more efficiently,
  but tbh I need more practice and/or experience*/
